@@ -1,0 +1,94 @@
+#hasodd{
+    display: flex;
+    margin: 1vw;
+}
+#hasodd input{
+    width: 5vw;
+}
+#hasodd button{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#hasodd .answer{
+    color: darkgrey;
+    text-align: center;
+    width: 15vw;
+}
+
+/* -------------------------------------------------------------- */
+
+#haszero{
+    display: flex;
+    margin: 1vw;
+}
+#haszero button{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#haszero .answer{
+    color: darkgrey;
+    text-align: center;
+    width: 10vw;
+}
+
+/* -------------------------------------------------------------- */
+
+#onlyodd{
+    display: flex;
+    margin: 1vw;
+}
+#onlyodd input{
+    width: 5vw;
+}
+#onlyodd button{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#onlyodd .answer{
+    color: darkgrey;
+    text-align: center;
+    width: 20vw;
+}
+
+/* -------------------------------------------------------------- */
+
+#nodupes{
+    display: flex;
+    margin: 1vw;
+}
+#nodupes input{
+    width: 5vw;
+}
+#nodupes button{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#nodupes .answer{
+    color: darkgrey;
+    text-align: center;
+    width: 15vw;
+}
+
+/* -------------------------------------------------------------- */
+
+#haskey{
+    display: flex;
+    margin: 1vw;
+}
+#haskey .answer{
+    color: darkgrey;
+    text-align: center;
+    width: 15vw;
+}
+
+/* -------------------------------------------------------------- */
+
+#hasval{
+    display: flex;
+    margin: 1vw;
+}
+#hasval .answer{
+    color: darkgrey;
+    text-align: center;
+    width: 15vw;
+}

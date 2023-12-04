@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some and Every Exercises</title>
+    <link rel="stylesheet" href="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine.css" />
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <h1>Some and Every Exercises</h1>
+    <hr>
+    <hr>
+    <h2>hasOddNumber</h2>
+    <section id="hasodd">
+        <div>[ <input type="number" max="999"> ,
+            <input type="number" max="999"> ,
+            <input type="number" max="999"> ]</div>
+            <button>hasOddNumber</button>
+            <input type="text" class="answer" value="has odd number?" readonly>
+    </section>
+    <hr>
+
+    <h2>hasAZero</h2>
+    <section id="haszero">
+        <input type="number" max="9999999">
+        <button>hasAZero</button>
+        <input type="text" value="has a zero?" class="answer" readonly>
+    </section>
+    <hr>
+
+    <h2>hasOnlyOddNumbers</h2>
+    <section id="onlyodd">
+        <div>[ <input type="number" max="999"> ,
+            <input type="number" max="999"> ,
+            <input type="number" max="999"> ]</div>
+            <button>hasOnlyOddNumbers</button>
+            <input type="text" class="answer" value="has only odd numbers?" readonly>
+    </section>
+    <hr>
+
+    <h2>hasNoDuplicates</h2>
+    <section id="nodupes">
+        <div>[ <input type="number" max="999"> ,
+            <input type="number" max="999"> ,
+            <input type="number" max="999"> ]</div>
+            <button>hasOnlyOddNumbers</button>
+            <input type="text" class="answer" value="has no duplicates?" readonly>
+    </section>
+    <hr>
+
+    <h2>hasCertainKey</h2>
+    <section id="haskey">
+        <p></p><br>
+        <div id="namekey">
+            <input type="text" class="answer" value='has "name"?' readonly>
+            <button>hasCertainKey</button>
+        </div>
+        <div id="catkey">
+            <input type="text" class="answer" value='has "catOwner"?' readonly>
+            <button>hasCertainKey</button>
+        </div>
+    </section>
+    <hr>
+
+    <h2>hasCertainValue</h2>
+    <section id="hasval">
+        <p></p><br>
+        <div id="nametest">
+            <input type="text" class="answer" value='"name" is "Mark"?' readonly>
+            <button>hasCertainValue</button>
+        </div>
+        <div id="humantest">
+            <input type="text" class="answer" value='"human" is "yes"?' readonly>
+            <button>hasCertainValue</button>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine.js"></script>
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/jasmine-html.js"></script>
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/boot0.js"></script>
+    <script src="https://unpkg.com/jasmine-core@4.1.0/lib/jasmine-core/boot1.js"></script>
+
+    <script src="app.js"></script>
+    <script src="app.test.js"></script>
+</body>
+</html>
